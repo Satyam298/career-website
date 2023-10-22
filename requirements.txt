@@ -9,3 +9,4 @@ PyMySQL==1.1.0
 SQLAlchemy==2.0.22
 typing-extensions==4.8.0
 werkzeug==3.0.0
+gunicorn
