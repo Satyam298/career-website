@@ -8,27 +8,43 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"       
     rel="stylesheet" integrity="sha384-      
     T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <img class = "img-fluid" id = "banner"src = "https://career-website--satyamjain3.repl.co/static/JobQuest.jpg"
+       height= "300"/>
+    <style>
+      #banner {
+          width: 100%;
+          height: 700px; /* or any other desired height */
+          object-fit: cover;
+      }
+          
+      
+      .lead {
+          margin-top: 70px;
+          margin-bottom: 70px;
+      }
+      .img{
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+    </style>
   </head>
  
   <body>
     <div class = "container">
       {% include 'nav.html' %}
      
-      <img class = "img-fluid" id = "banner"src = "https://career-website--satyamjain3.repl.co/static/JobQuest.jpg"
-       height= "300"/>
+      
       <h2 class="text-center">About JobQuest.com</h2>
-      <div class = "row" style="margin-bottom:16px">
+      <div class = "row" style="margin-bottom:30px">
         <div class ="col-md-6">
-      <p class = "lead" id="about">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
-       eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, 
-       nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. 
-       Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate 
-       eget, 
-       arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu 
-       pede mollis pretium. Integer tinc</p>
+      <p class = "lead" id="about">JobQuest.com is your ultimate destination for finding the perfect job.          Our mission is to connect job seekers with their dream careers and assist employers in finding
+        top-tier talent. We understand the importance of matching the right people with the right
+        opportunities, and we strive to make the job search process efficient and rewarding for both
+        employers and candidates.</p>
         </div>
-        <div class="d-none d-md-block col-md-6">
-          <img src="/static/people.jpeg" style="height:320px; border-radius:4px";>
+        <div class="d-none d-md-block col-md-6 img">
+          <img src="/static/people.jpeg" style="height:320px; border-radius:30px";>
         </div>
     
       <h2 class="text-center mt-2 mb-4">Open Positions</h2>
